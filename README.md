@@ -22,7 +22,7 @@ HealthBridge is a web-based Electronic Health Record (EHR) system that utilizes 
 5. User-friendly Interface: The website offers an intuitive and responsive user interface for easy navigation and interaction.
 
 
-## Snippets
+Snippets
 ## Home Page
 ![image](https://github.com/AyeshaNagdawala/HealthBridge/assets/111572744/d2e07bb6-8b00-4b1f-b686-e645b3608d7d)
 ![image](https://github.com/AyeshaNagdawala/HealthBridge/assets/111572744/39ee3b94-df7f-4b00-a75d-df5f855ad344)
