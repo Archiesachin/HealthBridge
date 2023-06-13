@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --primary-text-color: #0D3614;
+    --secondary-text-color: #28502F;
+    --accent-color: #5D8263;
+    --accent-color-dark: #426949;
+    --padding-inline-section: 20px;
+    --background-color: #F5F0F6;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.small-bold-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: var(--padding-inline-section);
+}
+
+.primary-button {
+    background-color: var(--primary-text-color);
+    border-radius: 6px;
+    font-weight: bold;
+    /* we use importnt to make sure it remains white and not black
+    as we predefined it as black */
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+  }
+  .primary-button:hover{
+    background-color: var(--accent-color-dark);   
+  }
+  .secondary-button{
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: bold;
+    color: var(--primary-text-color);
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+  }
+  .secondary-button:hover {
+        color: var(--accent-color);
+  }
+
+
+
+
+/*NAVBAR*/
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .company-logo img {
+    width: 150px;
+  }
+  
+  .nav-links {
+    flex-basis: 730px;
+    font-weight: bold;
+  }
+  .nav-links ul{
+    justify-content: end;
+    gap: 40px;
+  }
+
+  .hover-link {
+    color: var(--secondary-text-color);
+  }
+  .hover-link:hover{
+    color: var(--accent-color);
+    transition-property: 0.2s ease-out;
+  }
+
+.icons img{
+  height: 20px;
+}
+
+/*BODY*/
+
+.wrapper{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  height: 350px;
+  width: 430px;
+  margin-left: 20rem;
+  padding-top: 40px;
+}
+
+input[type="file" i]{
+  height: 30px;
+  width: 50rem;
+  border: 1px solid black;
+  align-items: center;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+input[type="submit" i]{
+  height: 30px;
+  width: 20rem;
+  font-size: 20px;
+  background: var(--accent-color-dark);
+  border-radius: 10px;
+  outline: none;
+}
